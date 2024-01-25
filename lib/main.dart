@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:flutter/material.dart';
 import 'pages/todo_page.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const HomePage(),
       theme: ThemeData(primarySwatch: Colors.yellow),
     );
   }
